@@ -3,6 +3,12 @@
     font-family: 'roboto', Arial;
 }
 
+body {
+    margin: 0px;
+    padding: 0%;
+    height: 100;
+}
+
 .homepg-top {
     background: #1f2937;
 }
@@ -36,6 +42,48 @@
     text-align: center;
 }
 
-.info {
+.homepg-info {
+    height: 450px;
+    display: flex;
+    gap: 100px;
+}
+
+.homepg-desc {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 auto;
+    padding: 40px;
+    width: 600px;
+    gap: 10px;
+}
+
+.homepg-desc div {
+    flex: 0 0 auto;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+    margin: 0px;
+}
+
+.homepg-info img {
+    width: 400px;
     height: 400px;
+}
+
+.sign-up-button {
+    text-align: center;
+    background-color: #3882F6;
+    font-weight: bold;
+    width: 90px;
+    border-radius: 10px;
+}
+
+.homepg-middle {
+    height: 400px;
+    width: auto
 }
