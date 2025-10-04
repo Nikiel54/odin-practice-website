@@ -1,0 +1,41 @@
+* {
+    box-sizing: border-box;
+    font-family: 'roboto', Arial;
+}
+
+.homepg-top {
+    background: #1f2937;
+}
+
+.homepg-hdr {
+    display: flex;
+    gap: 100px;
+}
+
+.homepg-hdr h2 {
+    margin: 40px;
+    color: #F9FAF8;
+    font-size: 24px;
+    flex: 1 1 auto;
+}
+
+.hdr-links {
+    width: 500px;
+    padding: 30px;
+    color: #e5e7eb;
+    font-size: 18px;
+    flex: 1 1 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.hdr-links div {
+    flex: 0 0 auto;
+    text-align: center;
+}
+
+.info {
+    height: 400px;
+}
